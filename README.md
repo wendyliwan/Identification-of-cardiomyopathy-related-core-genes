@@ -15,8 +15,7 @@ genes related to cardiomyopathy were identified.
 The expression profile data can be obtained from the GEO Database, and the Metabolic network from the Virtual Metabolic Human Database.  
 ### Usage:  
 This project uses R.  
-Detection of candidate modules: The Pearson permutation test(degree conserved).R and Pearson permutation test(size conserved) files are code that runs two permutation  
-tests to assess the significance of the Pearson correlation coefficient difference score of the initial modules.    
+Detection of candidate modules: The Pearson permutation test(degree conserved).R and Pearson permutation test(size conserved) files are code that runs two permutation tests to assess the significance of the Pearson correlation coefficient difference score of the initial modules.    
 
 Identification of cardiomyopathy risk modules: MRFms.R  is a code that calculates MRFms of candidate modules  based on Markov model. The MRFms permutation test(size conserved).R   
 and MRFms permutation test(degree conserved).R are programs for evaluating the significance of MRFms of candidate modules through two permutation tests. 
