@@ -10,3 +10,5 @@ This project uses R.
 Detection of candidate modules: The Pearson permutation test(degree conserved).R and Pearson permutation test(size conserved).R files are code that perform two permutation tests to assess the significance of the Pearson correlation coefficient difference score of the initial modules.    
 
 Identification of cardiomyopathy risk modules: MRFms.R is a code that calculates MRFms of candidate modules based on the Markov model. The MRFms permutation test(size conserved).R and MRFms permutation test(degree conserved).R are programs for evaluating the significance of MRFms of candidate modules through two permutation tests. 
+
+Identification of core genes：Known genes shortest path.R is a program that searches for the shortest paths between all known gene pairs. Number known gene pairs linked.R is a code that counts the number of known gene pairs linked by gene x via these shortest paths. 
